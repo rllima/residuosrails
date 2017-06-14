@@ -52,11 +52,14 @@ class ReportsController < ApplicationController
             if dep_name == "" then
               next
             end
-            labs = Department.find_by(name: dep_name).laboratories
-            if labs != nil then
-              labs.each do |lab|
-                if !lab.residues.empty? then
-                  error_residuos_not_find = false
+            dep = Department.find_by(name: dep_name)
+            if dep != nil then
+              labs = dep.laboratories
+              if labs != nil then
+                labs.each do |lab|
+                  if !lab.residues.empty? then
+                    error_residuos_not_find = false
+                  end
                 end
               end
             end
