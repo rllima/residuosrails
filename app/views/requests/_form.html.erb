@@ -11,15 +11,20 @@
     </div>
   <% end %>
   
-
-  <div class="field">
-    <%= f.label :user_id %>
-    <%= f.collection_select(:user_id, User.order(:name), :id, :name) %>
-  </div>
-
-  <div class="field">
-    <%= f.label :laboratory_id, "Usuario: " %>
-    <%= f.collection_select(:laboratory_id, Laboratory.all.order(:name), :id, :name) %>
+  <br>
+  <div class="row">
+    <div class="span6">
+      <div class="field">
+        <%= f.label :user_id, "Usuário" %>
+        <%= f.collection_select(:user_id, User.order(:name), :id, :name) %>
+      </div>
+    </div>
+    <div class="span6">
+        <div class="field">
+          <%= f.label :laboratory_id, "Laboratório" %>
+          <%= f.collection_select(:laboratory_id, Laboratory.all.order(:name), :id, :name) %>
+      </div>
+    </div>
   </div>
   
   <div class="actions">

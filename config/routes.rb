@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   get '/main_adm', to: 'application#main_adm'
   get '/genarate_report', to: 'application#genarate_report'
   get '/statistic', to: 'application#statistic'
-  get '/requests', to: 'application#request'
+  get '/request', to: 'application#request'
   get '/account', to: 'application#account'
   get '/types', to: 'application#types'
   get '/often', to: 'application#often'
