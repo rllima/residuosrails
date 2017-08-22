@@ -31,3 +31,32 @@ a tarefa daquela feature.
 Para os teste, foi utilizado o Cucumber. Ao longo da execução, foram feitas diversas refatorações, na
 busca de adequar o sistema as práticas aprendidas em sala.
 
+# Imagens do sistema
+
+<p align="center">
+ +<img align="center" src="https://github.com/rllima/residuosrails/blob/master/images/login.png" alt="doc">
+ +</p>
+ 
+ <p align="center">
+ +<img align="center" src="https://github.com/rllima/residuosrails/blob/master/images/cadastro1.png" alt="doc">
+ +</p> 
+ 
+ <p align="center">
+ +<img align="center" src="https://github.com/rllima/residuosrails/blob/master/images/cadastro2.png" alt="doc">
+ +</p> 
+ 
+ <p align="center">
+ +<img align="center" src="https://github.com/rllima/residuosrails/blob/master/images/Relatorio.png" alt="doc">
+ +</p> 
+ 
+ <p align="center">
+ +<img align="center" src="https://github.com/rllima/residuosrails/blob/master/images/estatistico1.png" alt="doc">
+ +</p> 
+ 
+ <p align="center">
+ +<img align="center" src="https://github.com/rllima/residuosrails/blob/master/images/estatistico2.png" alt="doc">
+ +</p> 
+ 
+ <p align="center">
+ +<img align="center" src="https://github.com/rllima/residuosrails/blob/master/images/Inserirpeso.png" alt="doc">
+ +</p> 
