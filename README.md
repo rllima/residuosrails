@@ -13,7 +13,7 @@ Centro de Informática (CIn) - UFPE
 
 * Deployment instructions
 
-#Descrição
+# Descrição
 
 Sistemas que tem como objetivo, fazer o gerenciamento de resíduos químicos gerados
 em laboratórios de universidades, facilitando assim o processo de licitaçãoes para 
